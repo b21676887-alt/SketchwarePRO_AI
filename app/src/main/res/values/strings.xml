@@ -1,5 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- ========== 应用信息与URL (App Info & URLs) ========== -->
     <string name="app_name">Sketchware Pro</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="besome_blog_url">http://medium.com/sketchware</string>
@@ -16,8 +16,6 @@
     <string name="title_besome_blog">Medium</string>
     <string name="title_compatible_chrome_browser">Chrome Browser Required</string>
     <string name="title_sketchware">Sketchware Pro</string>
-
-    <!-- ========== Block规格 (Block Specs) ========== -->
     <string name="block_add_list_int_body_1">to</string>
     <string name="block_add_list_int_head">add</string>
     <string name="block_add_list_int_tail" />
@@ -38,7 +36,7 @@
     <string name="block_and_body_1">and</string>
     <string name="block_and_head" />
     <string name="block_and_tail" />
-    <string name="block_bigger_body_1">></string>
+    <string name="block_bigger_body_1">&gt;</string>
     <string name="block_bigger_head" />
     <string name="block_bigger_tail" />
     <string name="block_bluetoothconnect_activate_bluetooth_head" />
@@ -1180,8 +1178,6 @@
     <string name="root_spec_on_upload_progress_tail" />
     <string name="root_spec_on_upload_success_head">onUploadSuccess</string>
     <string name="root_spec_on_upload_success_tail" />
-
-    <!-- ========== Block管理 (Block Management) ========== -->
     <string name="block_move_to_bin">Move to recycle bin</string>
     <string name="block_type_regular">regular</string>
     <string name="blocks_add_title">Add a new block</string>
@@ -1288,8 +1284,6 @@
     <string name="share_block_select_required_sounds_step_desc">Select sound needed for this block</string>
     <string name="share_block_select_required_sounds_step_name">Select Sound</string>
     <string name="used_custom_blocks">Used Custom Blocks</string>
-
-    <!-- ========== Block选择器 (Block Selector) ========== -->
     <string name="selector_confirm_delete">Are you sure you want to delete this selector?</string>
     <string name="selector_dialog_button_create">Create</string>
     <string name="selector_dialog_title_edit">Edit selector</string>
@@ -1302,8 +1296,6 @@
     <string name="selector_title_actions">Actions</string>
     <string name="selector_title_attention">Attention</string>
     <string name="selector_title_new_item">New Selector Item</string>
-
-    <!-- ========== 通用词汇 (Common Words) ========== -->
     <string name="action_delete">Delete</string>
     <string name="action_edit">Edit</string>
     <string name="action_export">Export</string>
@@ -1465,8 +1457,6 @@ Please click on Settings to allow permission for Storage. Without this permissio
     <string name="s7">Test Ad</string>
     <string name="search">Search</string>
     <string name="searching">Searching…</string>
-
-    <!-- ========== 通用对话框与提示 (Common Dialogs & Hints) ========== -->
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="create_enter_name_format">Enter a name for the new %s</string>
     <string name="create_file_class">Class</string>
@@ -1514,8 +1504,6 @@ Please click on Settings to allow permission for Storage. Without this permissio
     <string name="text_title_menu_permission">Permission Manager</string>
     <string name="text_title_menu_resource">Resource Manager</string>
     <string name="text_title_menu_resource_editor">Resource Editor</string>
-
-    <!-- ========== 通用错误消息 (Error Messages) ========== -->
     <string name="common_error_activity_not_found">Activity not found</string>
     <string name="common_error_an_error_occurred">An error occurred!</string>
     <string name="common_error_failed_to_connect_server">Failed to connect to the server</string>
@@ -1649,12 +1637,10 @@ Please click on Settings to allow permission for Storage. Without this permissio
     <string name="invalid_value_rule_2">Only use letters(a-z), numbers and Special characters(.)</string>
     <string name="invalid_value_rule_3">Only use letters(a-z), numbers and Special characters(_)</string>
     <string name="invalid_value_rule_4">Only use small letters(a-z), numbers and special character(_)</string>
-    <string name="invalid_value_rule_5">"Special letters(&amp;, &lt;, >, \", ') are not allowed"</string>
+    <string name="invalid_value_rule_5">"Special letters(&amp;, &lt;, &gt;, \", ') are not allowed"</string>
     <string name="invalid_value_rule_6">Spaces aren\'t allowed</string>
     <string name="unknown_attr">Unknown Attribute</string>
     <string name="var_is_required">%s is required</string>
-
-    <!-- ========== Toast消息 (Toast Messages) ========== -->
     <string name="toast_activity_not_in_manifest">Activity was not defined in AndroidManifest.</string>
     <string name="toast_activity_removed">Activity removed</string>
     <string name="toast_added">Added</string>
@@ -1714,17 +1700,11 @@ Please click on Settings to allow permission for Storage. Without this permissio
     <string name="toast_save_completed">Save completed</string>
     <string name="toast_select_file_type">Select a file type</string>
     <string name="toast_service_not_in_manifest">Service was not defined in AndroidManifest.</string>
-
-    <!-- ========== 解析错误 (Parse Errors) ========== -->
     <string name="parse_error_message_format">Failed to parse %1$s from file %2$s. Fix by renaming old file to %3$s? If not, no %1$s will be used.</string>
     <string name="parse_error_title_format">Couldn\'t get %s</string>
-
-    <!-- ========== 输入验证 (Input Validation) ========== -->
     <string name="attr_already_exist">This attribute already exists</string>
     <string name="attr_title_create">Create new attribute</string>
     <string name="attr_title_edit">Edit attribute</string>
-
-    <!-- ========== 备份与恢复 (Backup & Restore) ========== -->
     <string name="backup_button_back_up">Back up</string>
     <string name="backup_button_copy_libs">Copy</string>
     <string name="backup_button_dont_copy_libs">Don\'t copy</string>
@@ -1741,8 +1721,6 @@ Please click on Settings to allow permission for Storage. Without this permissio
     <string name="backup_toast_restored_refresh">Restored successfully. Refresh to see the project</string>
     <string name="backup_restore_local_libs_single">Looks like the backup file you selected contains some Local libraries. Do you want to copy them to your local_libs directory (if they do not already exist)?</string>
     <string name="backup_restore_local_libs_multi">Looks like backup file %1$s (%2$d out of %3$d) contains some Local libraries. Do you want to copy them to your local_libs directory (if they do not already exist)?</string>
-
-    <!-- ========== 组件系统 (Components) ========== -->
     <string name="component_add_docs_button_title_go_to_docs">Read Documentation</string>
     <string name="component_add_message_docs_updated_soon">The docs page will be updated soon</string>
     <string name="component_context_menu_title">Component menu</string>
@@ -1844,8 +1822,6 @@ ex)\"*/*\", \"image/*\", \"audio/*\", \"text/*\""</string>
     <string name="developer_tools_component_type_name">Type Name</string>
     <string name="developer_tools_component_url">Document URL (Optional)</string>
     <string name="developer_tools_component_var_type_name">Variable Type Name</string>
-
-    <!-- ========== 设计活动 (Design Activity) ========== -->
     <string name="create_view_both">Both</string>
     <string name="create_view_hidden">Hidden</string>
     <string name="create_view_hint_name">Enter name</string>
@@ -2124,8 +2100,6 @@ Choosing a theme mode lets you personalize the app\'s appearance, notes:\n
     <string name="view_panel_title_widgets">Widgets</string>
     <string name="view_title_create_new">Create new</string>
     <string name="view_title_edit">Edit %s</string>
-
-    <!-- ========== 事件系统 (Events) ========== -->
     <string name="event_context_menu_title">Event Menu</string>
     <string name="event_context_menu_title_delete_event">Delete Event</string>
     <string name="event_context_menu_title_delete_more_block">Delete moreBlock</string>
@@ -2251,8 +2225,6 @@ Do you want to continue?"</string>
     <string name="events_no_events">No events</string>
     <string name="events_properties_title">Event Properties</string>
     <string name="events_start_creating">Start by creating a new one</string>
-
-    <!-- ========== 逻辑编辑器 (Logic Editor) ========== -->
     <string name="button_delete_permanently">Delete permanently</string>
     <string name="button_move">Move</string>
     <string name="button_recycle_bin">Recycle bin</string>
@@ -2543,8 +2515,6 @@ But, components should be added manually for working correctly."</string>
     <string name="menu_select_theme">Select theme</string>
     <string name="menu_select_transcript_mode">Select transcript mode</string>
     <string name="menu_select_variable_format">Select a %s Variable</string>
-
-    <!-- ========== AndroidManifest管理 (Manifest) ========== -->
     <string name="manifest_activities">Activities</string>
     <string name="manifest_add_attribute">Add new attribute</string>
     <string name="manifest_add_permission">Add new permission</string>
@@ -2571,8 +2541,6 @@ But, components should be added manually for working correctly."</string>
     <string name="manifest_option_permissions">Permissions</string>
     <string name="manifest_option_permissions_desc">Add custom Permissions to the app</string>
     <string name="manifest_title">AndroidManifest Manager</string>
-
-    <!-- ========== 项目管理 (Project Management) ========== -->
     <string name="main_drawer_context_menu_title_slack_invitation">Get my invitation</string>
     <string name="main_drawer_context_menu_title_slack_open">Open in Slack (Invitation Required)</string>
     <string name="main_drawer_title_ad_label">Another Apps of Sketchware</string>
@@ -2726,8 +2694,6 @@ Do you want to continue?"</string>
     <string name="title_company_intro">Company Description</string>
     <string name="title_company_tel">Telephone</string>
     <string name="title_company_url">Website</string>
-
-    <!-- ========== 文件/资源管理器 (File & Resource Managers) ========== -->
     <string name="assets_manager_add_file">Import file</string>
     <string name="assets_manager_add_new">Create new</string>
     <string name="assets_manager_nofiles_body">You don\'t have any files here yet, try creating one.</string>
@@ -2822,8 +2788,6 @@ Do you want to continue?"</string>
     <string name="sound_add_to_collection">Add to my collection</string>
     <string name="sound_hint_name">Enter sound name</string>
     <string name="sound_manager_title">Sound Manager</string>
-
-    <!-- ========== 库管理 (Library Management) ========== -->
     <string name="exclude_libs_excluded_title">Excluded built-in libraries</string>
     <string name="exclude_libs_fab">Exclude library</string>
     <string name="exclude_libs_no_content">No excluded built-in libraries found</string>
@@ -2845,7 +2809,7 @@ Do you want to continue?"</string>
     <string name="local_lib_error_invalid_assets">Invalid assets path of enabled Local library #%d</string>
     <string name="local_lib_error_invalid_config">Invalid Local library configuration found! Temporarily using none</string>
     <string name="local_lib_error_invalid_dex">Invalid DEX path of enabled Local library #%d</string>
-    <string name="local_lib_error_invalid_jar">Invalid JAR path of enabled Local library #%1$d->%2$s</string>
+    <string name="local_lib_error_invalid_jar">Invalid JAR path of enabled Local library #%1$d-&gt;%2$s</string>
     <string name="local_lib_error_invalid_package">Invalid package name of enabled Local library #%d</string>
     <string name="local_lib_error_invalid_proguard">Invalid ProGuard path of enabled Local library #%d</string>
     <string name="local_lib_error_invalid_res">Invalid res/ folder path of enabled Local library #%d</string>
@@ -2863,8 +2827,6 @@ Do you want to continue?"</string>
     <string name="local_library_manager_skip_downloading_dependencies">Skip downloading sub-dependencies</string>
     <string name="menu_auto_merge_local_library_manifests">Auto-merge local library manifests</string>
     <string name="select_lib_hint_search">Search for libraries</string>
-
-    <!-- ========== 构建系统 (Build System) ========== -->
     <string name="build_error_failed_create_directory">Failed to create directory / directories!</string>
     <string name="build_error_missing_directory_msg">A directory important for building is missing. Sketchware Pro can try creating %s if you\'d like to.</string>
     <string name="build_error_missing_directory_title">Missing directory detected</string>
@@ -2926,8 +2888,6 @@ Do you want to continue?"</string>
     <string name="proguard_select_local_libs">Select Local libraries</string>
     <string name="proguard_title">Code Shrinking Manager</string>
     <string name="signatures_title">Signatures</string>
-
-    <!-- ========== 通知 (Notifications) ========== -->
     <string name="notification_building_project">Building project</string>
     <string name="notification_cancel_build">Cancel build</string>
     <string name="notification_channel_build">Build Notifications</string>
@@ -2935,8 +2895,6 @@ Do you want to continue?"</string>
     <string name="notification_channel_firebase">Sketchware Pro Notifications</string>
     <string name="notification_starting_build">Starting build…</string>
     <string name="snackbar_show_compile_log">Show compile log</string>
-
-    <!-- ========== 应用设置 (App Settings & Configuration) ========== -->
     <string name="apk_sign_select_file">Please select an APK file to sign</string>
     <string name="apk_sign_success">Successfully saved signed APK to: /Internal storage/sketchware/signed_apk/%s</string>
     <string name="app_settings_action_delete">Delete</string>
@@ -3051,8 +3009,6 @@ Do you want to continue?"</string>
     <string name="theme_system_default_desc">Follow system theme settings</string>
     <string name="theme_title_create">Create new theme</string>
     <string name="theme_title_edit">Edit theme</string>
-
-    <!-- ========== 语言设置 (Language Settings) ========== -->
     <string name="language_settings_title">Language Settings</string>
     <string name="language_settings_desc">Export and import translation files</string>
     <string name="language_settings_current_language">Current Language</string>
@@ -3085,8 +3041,6 @@ Do you want to continue?"</string>
     <string name="language_settings_import_success_title">Import Successful</string>
     <string name="language_settings_import_success_msg">Import complete.\n\nTotal strings: %1$d\nMatched: %2$d\nFailed: %3$d\n\nThe translations are now active. Some UI elements may need the app to be restarted to fully reflect the changes.</string>
     <string name="language_settings_help">How it works:\n\n1. Tap \"Export Strings\" to generate an XML file with all app strings.\n2. Translate the strings in the exported file.\n3. Tap \"Import Strings\" to load your translated file.\n\nThe imported strings will override the default display language. You can clear the override at any time to restore the defaults.</string>
-
-    <!-- ========== 编辑器 (Editors) ========== -->
     <string name="array_attr_hint_name">Enter Item Name</string>
     <string name="array_attr_hint_value">Enter Item Value</string>
     <string name="array_hint_header">Array header value ( optional )</string>
@@ -3303,8 +3257,6 @@ ACTION_VIEW
     <string name="xml_command_select_xml">Select an XML</string>
     <string name="xml_command_title">XML Command Manager</string>
     <string name="xml_strings">XML Strings</string>
-
-    <!-- ========== 代码编辑器菜单 (Code Editor Menu) ========== -->
     <string name="menu_about_team">About the team</string>
     <string name="menu_add_lowercase">add</string>
     <string name="menu_add_to_manifest">Add to AndroidManifest</string>
@@ -3361,8 +3313,6 @@ ACTION_VIEW
     <string name="menu_variables">Variables</string>
     <string name="menu_views">Views</string>
     <string name="menu_word_wrap">Word wrap</string>
-
-    <!-- ========== AppCompat ========== -->
     <string name="appcompat_add_attr">Add new attribute</string>
     <string name="appcompat_disabled_msg">Please enable AppCompat in the Library Manager to use it.</string>
     <string name="appcompat_disabled_title">AppCompat is disabled.</string>
@@ -3373,8 +3323,6 @@ ACTION_VIEW
     <string name="appcompat_not_available_msg">You\'re not currently in the Activity layout.</string>
     <string name="appcompat_not_available_title">Not available.</string>
     <string name="appcompat_reset_confirm_msg">Are you sure you want to reset appcompat attributes for %s?</string>
-
-    <!-- ========== 关于页面 (About Page) ========== -->
     <string name="about_badge_contributor">Contributor</string>
     <string name="about_badge_core_team">Core Team</string>
     <string name="about_beta_changes_title">Beta Changes</string>
@@ -3412,8 +3360,6 @@ ACTION_VIEW
     <string name="about_variant_official">Official</string>
     <string name="github_api_date_unavailable">Date unavailable</string>
     <string name="github_api_error_message">Something went wrong. Please wait and try again.</string>
-
-    <!-- ========== 社区与分享 (Community & Sharing) ========== -->
     <string name="collection_duplicated_name">Duplicate file name in my collection</string>
     <string name="collection_failed_to_copy">Failed to save to my collection</string>
     <string name="collection_no_exist_file">File does not exist</string>
@@ -3649,27 +3595,21 @@ Please try again later"</string>
     <string name="title_community">Social Network</string>
     <string name="title_discord_community">Discord</string>
     <string name="title_telegram_community">Telegram</string>
-
-    <!-- ========== 社交链接与团队 (Links & Team) ========== -->
     <string name="link_about_team">https://sketchware-pro.github.io/Sketchware-Pro/about.json</string>
     <string name="link_discord_invite">https://discord.gg/kq39yhT4rX</string>
     <string name="link_docs_url">https://docs.sketchware.pro</string>
-    <string name="link_github_commits_url"><![CDATA[https://api.github.com/repos/Sketchware-Pro/Sketchware-Pro/commits?per_page=%s&page=%s]]></string>
+    <string name="link_github_commits_url">https://api.github.com/repos/Sketchware-Pro/Sketchware-Pro/commits?per_page=%s&amp;page=%s</string>
     <string name="link_github_release">https://github.com/Sketchware-Pro/Sketchware-Pro/releases</string>
     <string name="link_github_url">https://github.com/Sketchware-Pro/Sketchware-Pro</string>
     <string name="link_ideas_url">https://discord.gg/4uxhMwCt</string>
     <string name="link_sw_assist">https://play.google.com/store/apps/details?id=com.w3wide.swassist</string>
     <string name="link_telegram_invite">https://t.me/sketchwarepro</string>
-
-    <!-- ========== AdMob ========== -->
     <string name="admob_ad_name_label">Ad Name : </string>
     <string name="admob_ad_unit_id_label">Ad Unit ID : </string>
     <string name="admob_edit">EDIT</string>
     <string name="admob_edit_label">EDIT</string>
     <string name="admob_no_ad_units">No Ad Units to display</string>
     <string name="admob_rewarded_ad">Rewarded Ad</string>
-
-    <!-- ========== 图标 (Icons) ========== -->
     <string name="filter_icons_baseline">Baseline</string>
     <string name="filter_icons_outlined">Outlined</string>
     <string name="filter_icons_round">Round</string>
@@ -3703,8 +3643,6 @@ Please try again later"</string>
     <string name="save_icon_hint_name">Enter icon name</string>
     <string name="save_icon_licence">This icon is available under the Apache Licence Version 2.0. Press to read more.</string>
     <string name="title_activity_icon_creator">IconCreatorActivity</string>
-
-    <!-- ========== Widget ========== -->
     <string name="create_new_widget">Create a widget</string>
     <string name="view_widget_delete_description">Are you sure you want to delete this view and its child elements? \nYou can undo this action if necessary</string>
     <string name="view_widget_delete_title">Delete Widget</string>
@@ -3722,8 +3660,6 @@ Please try again later"</string>
     <string name="widget_editor">Widget editor</string>
     <string name="widget_type_title">Widget type</string>
     <string name="widgets_select_json">Select .json widgets files</string>
-
-    <!-- ========== 搜索 (Search) ========== -->
     <string name="search_error_message">Nothing found,\ntry again with something else</string>
     <string name="search_header">"  Search…"</string>
     <string name="search_hint">Search…</string>
@@ -3756,27 +3692,19 @@ Please try again later"</string>
     <string name="search_recent_title_delete_keyword_dialog">Delete Keyword</string>
     <string name="search_result_message_no_data">No search result to show. :(</string>
     <string name="search_result_title">Search Result of %s</string>
-
-    <!-- ========== 版本控制 (Version Control) ========== -->
     <string name="version_control_title">Advanced Version Control</string>
     <string name="version_error_invalid_code">Invalid Version Code</string>
     <string name="version_error_invalid_name">Invalid Version Name</string>
     <string name="version_hint_code">Version code</string>
     <string name="version_hint_name">Version name</string>
     <string name="version_hint_name_extra">Version name extra</string>
-
-    <!-- ========== 密钥库 (Keystore) ========== -->
     <string name="keystore_export_path_format">Export path: %s</string>
     <string name="keystore_helper_algorithm">Example: SHA256withRSA</string>
     <string name="keystore_hint_algorithm">Signing algorithm</string>
     <string name="keystore_hint_alias">Keystore alias</string>
     <string name="keystore_hint_password">Alias password</string>
     <string name="keystore_hint_signing_mode">Signing mode</string>
-
-    <!-- ========== MoreBlock ========== -->
     <string name="moreblock_dialog_title_select">Select a more block</string>
-
-    <!-- ========== 字体 (Font) ========== -->
     <string name="font_add_to_collection">Add to my collection</string>
     <string name="font_clear">Clear</string>
     <string name="font_hint_name">Font name</string>
@@ -3785,8 +3713,6 @@ Please try again later"</string>
     <string name="font_preview_sample">This is how your font looks like.</string>
     <string name="font_preview_title">Font preview</string>
     <string name="font_select">Select</string>
-
-    <!-- ========== Material3 ========== -->
     <string name="material3_dark">Dark</string>
     <string name="material3_daynight">DayNight</string>
     <string name="material3_description">Modern Material design with adaptive dynamic theming</string>
@@ -3794,56 +3720,26 @@ Please try again later"</string>
     <string name="material3_enable">Enable Material3</string>
     <string name="material3_light">Light</string>
     <string name="material3_theme_pref">Material3 Theme Preference :</string>
-
-    <!-- ========== 构建错误 (Build Errors) ========== -->
-
-    <!-- ========== 块管理 (Block Manager) ========== -->
-
-    <!-- ========== 通用按钮 (Common Buttons) ========== -->
     <string name="button_download">Download</string>
     <string name="button_apply">Apply</string>
-
-    <!-- ========== 通用对话框 (Common Dialogs) ========== -->
     <string name="dialog_title_actions">Actions</string>
     <string name="dialog_title_attention">Attention</string>
     <string name="dialog_title_rename">Rename</string>
     <string name="dialog_title_create_new">Create new</string>
-
-    <!-- ========== 事件管理器 (Events Manager) ========== -->
     <string name="events_new_title">New Event</string>
-
-    <!-- ========== 块选择器 (Block Selector) ========== -->
     <string name="selector_new_title">New selector</string>
     <string name="selector_edit_title">Edit selector</string>
     <string name="selector_new_item_title">New Selector Item</string>
-
-    <!-- ========== 文件选择器 (File Picker) ========== -->
     <string name="file_picker_select_json_selector">Select .json selector file</string>
-
-    <!-- ========== 库管理 (Library Manager) ========== -->
-
-    <!-- ========== 本地库管理 (Native Library Manager) ========== -->
     <string name="nativelib_manager_title">Native Library Manager</string>
     <string name="nativelib_import_title">Import Native Libraries</string>
     <string name="folder_create_title">Create a new folder</string>
     <string name="folder_create_msg">Enter the name of the new folder</string>
-
-    <!-- ========== Java/Kotlin管理 ========== -->
     <string name="java_manager_title">Java/Kotlin Manager</string>
     <string name="java_create_msg">File extension will be added automatically based on the file type you select</string>
-
-    <!-- ========== 代码编辑器 (Code Editor) ========== -->
     <string name="editor_select_theme_title">Select Theme</string>
     <string name="editor_select_language_title">Select Language</string>
-
-    <!-- ========== Proguard ========== -->
     <string name="proguard_select_libraries_title">Select Local libraries</string>
-
-    <!-- ========== Firebase ========== -->
-
-    <!-- ========== GoogleMap ========== -->
-
-    <!-- ========== 编辑器预览 (Editor Preview) ========== -->
     <string name="editor_preview_statusbar">StatusBar</string>
     <string name="editor_preview_toolbar">Toolbar</string>
     <string name="editor_preview_drawer">Drawer</string>
@@ -3854,18 +3750,832 @@ Please try again later"</string>
     <string name="editor_preview_webview">WebView</string>
     <string name="editor_preview_spinner">Spinner</string>
     <string name="editor_preview_mapview">MapView</string>
-
-    <!-- ========== 视图管理 (View Manager) ========== -->
     <string name="view_title_edit_format">Edit %s</string>
-
-    <!-- ========== 错误报告 (Error Report) ========== -->
-
-    <!-- ========== 小部件 (Widgets) ========== -->
     <string name="widgets_select_json_title">Select .json widgets files</string>
-
-    <!-- ========== 资源编辑器 - 补充 ========== -->
     <string name="array_select_type_title">Select Array Type</string>
     <string name="item_title_create">Create new item</string>
     <string name="item_title_edit">Edit item</string>
-
+    <string name="global_search_title">Global Search</string>
+    <string name="global_search_all">All</string>
+    <string name="global_search_Layouts">Layouts</string>
+    <string name="global_search_Logic">Logic</string>
+    <string name="global_search_Components">Components</string>
+    <string name="global_search_searchproject">Search Project</string>
+    <string name="global_search_noresultsfound">No results found</string>
+    <string name="global_search_searching_project">Searching project...</string>
+    <string name="title_source_code">Source Code</string>
+    <string name="option_view_source_code">View Source Code</string>
+    <string name="option_code_to_blocks">Code to Blocks</string>
+    <string name="option_generate_with_ai">Generate with AI</string>
+    <string name="ai_code_subtitle_format">Describe what this \"%1$s\" event should do. AI will write the logic and convert it to blocks.</string>
+    <string name="ai_code_hint">e.g. show a toast saying Hello when this runs</string>
+    <string name="ai_toast_enter_description">Describe what this event should do first.</string>
+    <string name="ai_toast_enter_description_alt">Enter a description to generate the code.</string>
+    <string name="ai_toast_no_result">No result was obtained from the provider.</string>
+    <string name="ai_toast_generation_failed">Code generation failed: %1$s</string>
+    <string name="ai_toast_request_error">Request error: %1$s</string>
+    <string name="ai_dialog_generating">Generating code</string>
+    <string name="converter_error_failed">Converter failed: %1$s</string>
+    <string name="converter_error_could_not_convert">Couldn\'t convert the code: %1$s</string>
+    <string name="converter_no_result">no result</string>
+    <string name="word_block">block</string>
+    <string name="word_blocks">blocks</string>
+    <string name="conversion_summary_msg">Here\'s what we found:\n\n✅  %1$d native %2$s\n⚠️  %3$d \"Add Source Directly\" %4$s\n\nReady to add %5$d %6$s to your project?</string>
+    <string name="conversion_dialog_title">Ready to Insert?</string>
+    <string name="conversion_btn_go_back">Wait, go back</string>
+    <string name="conversion_btn_insert">Yes, insert them</string>
+    <string name="blocks_toast_no_blocks">No blocks to insert.</string>
+    <string name="blocks_toast_inserted">%1$d %2$s inserted.</string>
+    <string name="code_to_blocks_title">Code to Blocks</string>
+    <string name="code_to_blocks_subtitle">Paste your Java snippet below. Supported syntax (loops, variables, APIs) will become blocks. Unrecognized code is wrapped safely.</string>
+    <string name="code_to_blocks_hint">public void myLogic() {\n    // Code here\n}</string>
+    <string name="code_to_blocks_error_empty">Oops! You forgot to paste the code.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_generate">Generate</string>
+    <string name="btn_convert">Convert</string>
+    <string name="title_explorer_project_category">Project Explorer</string>
+    <string name="pref_enable_treeview_title">Enable Tree View</string>
+    <string name="pref_enable_treeview_summary">Display project files in a hierarchical tree structure</string>
+    <string name="title_backuprestore_category">Backup and Restore</string>
+    <string name="title_versioncontrol_category">Version Control</string>
+    <string name="title_rootfeatures_category">Root Features</string>
+    <string name="title_general_category">General</string>
+    <string name="design_drawer_menu_title_lottie">Lottie Manage</string>
+    <string name="design_drawer_menu_description_lottie">Manage Lottie animations</string>
+    <string name="design_manager_lottie_hint_enter_animation_name">Enter the animation name</string>
+    <string name="design_manager_lottie_title_add_lottie">Add Lottie animation</string>
+    <string name="search_menu_title">Search</string>
+    <string name="project_type_native">Native</string>
+    <string name="project_type_android_studio">Android Studio</string>
+    <string name="main_search_projects_hint">Search projects...</string>
+    <string name="main_restore_projects_description">Restore saved backups and imported projects.</string>
+    <string name="main_drawer_subtitle">Project tools and app links</string>
+    <string name="store_open_website">Open site</string>
+    <string name="store_search_hint">Search apps, projects, tags...</string>
+    <string name="store_filter_type">Type</string>
+    <string name="store_filter_sort">Sort</string>
+    <string name="store_filter_flags">Filters</string>
+    <string name="store_filter_category">Categories</string>
+    <string name="store_filter_free">Free</string>
+    <string name="store_filter_paid">Paid</string>
+    <string name="store_filter_open_source">Open source</string>
+    <string name="store_filter_featured">Featured</string>
+    <string name="store_filters_title">Filters</string>
+    <string name="store_filters_apply">Apply</string>
+    <string name="store_filters_clear">Clear</string>
+    <string name="store_empty">No publications found.</string>
+    <string name="store_load_more">Load more</string>
+    <string name="store_download_preparing">Preparing download</string>
+    <string name="store_download_requesting">Requesting signed URL...</string>
+    <string name="store_download_unavailable">Download unavailable</string>
+    <string name="store_download_waiting_permission">Waiting for permission</string>
+    <string name="store_download_permission_required">Storage permission is required to save this file.</string>
+    <string name="store_download_downloading">Downloading</string>
+    <string name="store_download_starting">Starting download...</string>
+    <string name="store_download_failed">Download failed</string>
+    <string name="store_download_started">Download started: %1$s</string>
+    <string name="store_download_complete">Download complete</string>
+    <string name="store_download_complete_message">Saved in Downloads.</string>
+    <string name="store_download_paused">Download paused. Waiting for network or system permission.</string>
+    <string name="store_download_progress">%1$d%% - %2$s of %3$s</string>
+    <string name="store_download_progress_unknown">Downloaded %1$s</string>
+    <string name="store_download_permission_denied">Permission denied. Download was not started.</string>
+    <string name="web_services_title">APIs and resources</string>
+    <string name="web_service_open_error">Could not open this link</string>
+    <string name="studio_editor_title">Android Studio Project</string>
+    <string name="studio_files">Project</string>
+    <string name="studio_select_file">Select a file</string>
+    <string name="studio_no_file_title">No editable file selected</string>
+    <string name="studio_no_file_message">Open a Java, Kotlin, XML, Gradle, or text file from the project tree.</string>
+    <string name="studio_project_missing">Android Studio project not found</string>
+    <string name="studio_project_selected">Android Studio project selected</string>
+    <string name="studio_saved">File saved</string>
+    <string name="studio_save_failed">Could not save file</string>
+    <string name="studio_open_failed">Could not open file</string>
+    <string name="studio_no_xml_preview">Formatting is available for .xml files.</string>
+    <string name="studio_output_ready">Ready.</string>
+    <string name="studio_build_output">Build output</string>
+    <string name="studio_output_expand">Expand output</string>
+    <string name="studio_output_collapse">Collapse output</string>
+    <string name="studio_output_clear">Clear output</string>
+    <string name="studio_action_files">Files</string>
+    <string name="studio_action_close">Close</string>
+    <string name="studio_action_undo">Undo</string>
+    <string name="studio_action_redo">Redo</string>
+    <string name="studio_action_build">Build</string>
+    <string name="studio_action_save">Save</string>
+    <string name="studio_action_format">Format</string>
+    <string name="studio_action_theme">Theme</string>
+    <string name="studio_action_preview">Layout editor</string>
+    <string name="studio_action_errors">Build errors</string>
+    <string name="studio_action_new_file">New file</string>
+    <string name="studio_action_rename">Rename</string>
+    <string name="studio_action_delete">Delete</string>
+    <string name="studio_action_add_resource">Add resource</string>
+    <string name="studio_action_add_icon">Add icon</string>
+    <string name="studio_action_text_color">Text color</string>
+    <string name="studio_action_dependencies">Dependencies</string>
+    <string name="studio_action_search">Search</string>
+    <string name="studio_action_syntax">Syntax</string>
+    <string name="studio_action_previous_position">Previous position</string>
+    <string name="studio_action_next_position">Next position</string>
+    <string name="studio_action_jump_to_line">Jump to line</string>
+    <string name="studio_action_word_wrap">Word wrap</string>
+    <string name="studio_action_read_only_mode">Read-only mode</string>
+    <string name="studio_action_smooth_mode">Smooth mode</string>
+    <string name="studio_action_preferences">Preferences</string>
+    <string name="studio_action_open">Open</string>
+    <string name="studio_action_copy_path">Copy path</string>
+    <string name="studio_action_file_menu">File actions</string>
+    <string name="studio_dependencies_sheet_subtitle">Detect dependencies from Gradle files or type a Maven coordinate.</string>
+    <string name="studio_dependencies_detect">Detect from project</string>
+    <string name="studio_dependencies_manual">Type dependency</string>
+    <string name="studio_dependencies_firebase_analytics">Add Firebase Analytics</string>
+    <string name="studio_dependencies_none">No resolvable Gradle dependencies were found.</string>
+    <string name="studio_dependencies_detected_title">%1$d dependencies detected</string>
+    <string name="studio_dependencies_detected_message">The editor can download these dependencies into the project local library cache:</string>
+    <string name="studio_dependencies_more_count">...and %1$d more</string>
+    <string name="studio_dependencies_download_all">Download all</string>
+    <string name="studio_dependencies_download_finished">Dependencies downloaded</string>
+    <string name="studio_dependencies_detected_input_hint">Detected dependencies</string>
+    <string name="studio_dependencies_queue_info">%1$d detected dependencies are ready to download.</string>
+    <string name="studio_dependencies_confirm_batch_title">Download dependencies?</string>
+    <string name="studio_dependencies_download_batch_message">Download %1$d dependencies and add them to this project?</string>
+    <string name="studio_dependencies_downloading_item">Downloading %1$d of %2$d: %3$s</string>
+    <string name="studio_dependencies_invalid_format">Invalid dependency format: %1$s</string>
+    <string name="studio_syntax_plain_text">Plain text</string>
+    <string name="studio_syntax_java">Java</string>
+    <string name="studio_syntax_kotlin">Kotlin</string>
+    <string name="studio_syntax_xml">XML</string>
+    <string name="studio_syntax_selected">Syntax: %1$s</string>
+    <string name="studio_line_number_hint">Line number</string>
+    <string name="studio_line_selected">Line %1$d</string>
+    <string name="studio_invalid_line_number">Enter a valid line number.</string>
+    <string name="studio_word_wrap_enabled">Word wrap enabled</string>
+    <string name="studio_word_wrap_disabled">Word wrap disabled</string>
+    <string name="studio_read_only_enabled">Read-only mode enabled</string>
+    <string name="studio_read_only_disabled">Read-only mode disabled</string>
+    <string name="studio_smooth_mode_enabled">Smooth mode enabled</string>
+    <string name="studio_smooth_mode_disabled">Smooth mode disabled</string>
+    <string name="studio_search_results_empty">Search results: 0/0</string>
+    <string name="studio_search_results_count">Search results: %1$d/%2$d</string>
+    <string name="studio_search_find_label">Find</string>
+    <string name="studio_search_replace_label">Rep</string>
+    <string name="studio_search_case_toggle">Cc</string>
+    <string name="studio_search_word_toggle">W</string>
+    <string name="studio_search_close">x</string>
+    <string name="studio_search_previous">PREV</string>
+    <string name="studio_search_next">NEXT</string>
+    <string name="studio_search_replace_one">REP</string>
+    <string name="studio_search_no_query">Type text to search.</string>
+    <string name="studio_search_results">Results</string>
+    <string name="studio_file_not_editable_title">Non-editable file</string>
+    <string name="studio_file_size_label">Size</string>
+    <string name="studio_format_failed">Could not format file</string>
+    <string name="studio_path_copied">Path copied</string>
+    <string name="studio_search_files">Search file names...</string>
+    <string name="studio_image_preview">Image preview</string>
+    <string name="studio_layout_preview_unavailable">Layout editor is available for XML files inside app/src/main/res/layout.</string>
+    <string name="studio_layout_editor_title">Layout editor</string>
+    <string name="studio_layout_editor_palette">Palette</string>
+    <string name="studio_layout_editor_empty">Drag a widget here</string>
+    <string name="studio_layout_editor_ready">Layout editor ready.</string>
+    <string name="studio_layout_editor_saved">Layout saved</string>
+    <string name="studio_layout_editor_save_failed">Could not save layout</string>
+    <string name="studio_layout_editor_unsaved">Save layout changes before leaving?</string>
+    <string name="studio_layout_editor_parse_failed">Could not read the full layout. You can still add widgets and save.</string>
+    <string name="studio_layout_editor_delete">Delete selected</string>
+    <string name="studio_layout_editor_source">Source</string>
+    <string name="studio_layout_editor_no_selection">Select a widget first.</string>
+    <string name="studio_widget_textview">TextView</string>
+    <string name="studio_widget_button">Button</string>
+    <string name="studio_widget_edittext">EditText</string>
+    <string name="studio_widget_imageview">ImageView</string>
+    <string name="studio_widget_linear_layout">LinearLayout</string>
+    <string name="studio_widget_checkbox">CheckBox</string>
+    <string name="studio_widget_radio_button">RadioButton</string>
+    <string name="studio_widget_switch">Switch</string>
+    <string name="studio_widget_seekbar">SeekBar</string>
+    <string name="studio_widget_progressbar">ProgressBar</string>
+    <string name="studio_widget_spinner">Spinner</string>
+    <string name="studio_widget_listview">ListView</string>
+    <string name="studio_widget_webview">WebView</string>
+    <string name="studio_widget_calendarview">CalendarView</string>
+    <string name="studio_widget_space">Space</string>
+    <string name="studio_errors_empty">No build error was captured yet. Run Build first.</string>
+    <string name="studio_errors_hint">Open the referenced file, fix the first error, then build again.</string>
+    <string name="studio_new_file_hint">folder/FileName.java or file.xml</string>
+    <string name="studio_resource_layout">Layout XML</string>
+    <string name="studio_resource_drawable">Drawable XML</string>
+    <string name="studio_resource_values">Values XML</string>
+    <string name="studio_resource_raw">Raw file</string>
+    <string name="studio_delete_confirm">Delete this item?</string>
+    <string name="studio_create_failed">Could not create file</string>
+    <string name="studio_renamed">File renamed</string>
+    <string name="studio_rename_failed">Could not rename file</string>
+    <string name="studio_deleted">File deleted</string>
+    <string name="studio_delete_failed">Could not delete file</string>
+    <string name="studio_icon_added">Icon added</string>
+    <string name="studio_icon_failed">Could not add icon</string>
+    <string name="studio_text_color_added">Text color added</string>
+    <string name="studio_text_color_exists">Text color already exists in supported text widgets.</string>
+    <string name="studio_build_started">Build started</string>
+    <string name="studio_build_finished">Build finished</string>
+    <string name="studio_build_failed">Build failed</string>
+    <string name="studio_install_apk_title">Install generated APK?</string>
+    <string name="studio_install_apk_message">The APK was generated successfully.</string>
+    <string name="studio_install_apk_button">Install</string>
+    <string name="studio_install_failed">Could not open installer</string>
+    <string name="studio_apk_missing">Generated APK was not found.</string>
+    <string name="studio_file_not_editable">This file is not a supported text file.</string>
+    <string name="common_word_error">Error</string>
+    <string name="common_word_filter">Filter</string>
+    <string name="common_word_old">Old</string>
+    <string name="component_description_compass">Reports the device heading from 0 to 360 degrees.</string>
+    <string name="component_description_light_sensor">Measures ambient light in lux.</string>
+    <string name="component_description_proximity_sensor">Measures the distance to a nearby object in centimeters.</string>
+    <string name="component_description_barometer">Measures atmospheric pressure in hPa.</string>
+    <string name="component_description_step_counter">Reports the cumulative number of steps since the last device restart.</string>
+    <string name="component_description_work_manager">Schedules reliable deferrable background work using AndroidX WorkManager.</string>
+    <string name="component_description_alarm_manager">Schedules and cancels exact alarms that can reopen the current activity.</string>
+    <string name="component_description_biometric_manager">Checks biometric availability and displays a secure authentication prompt.</string>
+    <string name="component_description_fused_location_manager">Provides high-accuracy location updates through Google Play services.</string>
+    <string name="design_library_description_material3">Modern Material design with adaptive dynamic theming</string>
+    <string name="import_icon_tab_new">New icons</string>
+    <string name="import_icon_tab_old">Old icons</string>
+    <string name="design_tab_title_strings">Strings</string>
+    <string name="event_on_compass_changed">onCompassChanged</string>
+    <string name="event_on_light_changed">onLightChanged</string>
+    <string name="event_on_proximity_changed">onProximityChanged</string>
+    <string name="event_on_pressure_changed">onPressureChanged</string>
+    <string name="event_on_step_count_changed">onStepCountChanged</string>
+    <string name="event_on_biometric_success">onBiometricSuccess</string>
+    <string name="event_on_biometric_error">onBiometricError</string>
+    <string name="event_on_biometric_failed">onBiometricFailed</string>
+    <string name="event_on_fused_location_changed">onFusedLocationChanged</string>
+    <string name="logic_editor_panel_button_remove_list">Remove list</string>
+    <string name="logic_editor_panel_button_remove_variable">Remove variable</string>
+    <string name="logic_editor_title_remove_list">Remove a list</string>
+    <string name="logic_editor_title_remove_variable">Remove a variable</string>
+    <string name="logic_editor_title_select_component_compass">Select Compass component</string>
+    <string name="logic_editor_title_select_component_light_sensor">Select Light Sensor component</string>
+    <string name="logic_editor_title_select_component_proximity_sensor">Select Proximity Sensor component</string>
+    <string name="logic_editor_title_select_component_barometer">Select Barometer component</string>
+    <string name="logic_editor_title_select_component_step_counter">Select Step Counter component</string>
+    <string name="logic_editor_title_select_component_work_manager">Select Work Manager component</string>
+    <string name="logic_editor_title_select_component_alarm_manager">Select Alarm Manager component</string>
+    <string name="logic_editor_title_select_component_biometric_manager">Select Biometric Manager component</string>
+    <string name="logic_editor_title_select_component_fused_location_manager">Select Fused Location Manager component</string>
+    <string name="logic_more_block_message_select_more_block">Please select a more block</string>
+    <string name="myprojects_export_project_button_export_ide">Create IDE Project</string>
+    <string name="myprojects_export_project_title_export_ide">Export to IDE Project</string>
+    <string name="update_notification_channel">App updates</string>
+    <string name="update_notification_title">New update is being prepared</string>
+    <string name="update_notification_message">A new commit was published: %1$s. The app update will be available shortly.</string>
+    <string name="github_settings_title">GitHub Settings</string>
+    <string name="github_settings_intro">Connect GitHub so the AI agent can browse repositories, read files, manage issues and pull requests. Android Studio projects can publish atomic snapshots.</string>
+    <string name="github_settings_pat_title">Personal Access Token</string>
+    <string name="github_settings_pat_description">Generate a token in GitHub → Settings → Developer Settings → Personal Access Tokens (classic) with the repo and read:org scopes.\nThe token is stored only on this device and is never sent to the LLM.</string>
+    <string name="github_settings_token_hint">Token (ghp_… or github_pat_…)</string>
+    <string name="github_settings_open_tokens">Open GitHub token page</string>
+    <string name="github_settings_tools_title">Tools available in agent mode</string>
+    <string name="github_settings_tools_description">When a token is configured, the agent automatically receives %1$d GitHub tools:\n\n• github_list_repos — list repositories\n• github_get_repo — get repository details\n• github_list_branches — list branches\n• github_create_repository — create a repository\n• github_create_branch — create a branch\n• github_get_file — read a file\n• github_list_files — browse a directory\n• github_search_code — search code\n• github_list_issues — list issues\n• github_create_issue — create an issue\n• github_list_pull_requests — list pull requests\n• github_create_pull_request — create a pull request\n• github_create_or_update_file — commit one file\n• github_list_commits — list commits\n• github_get_commit — get commit details</string>
+    <string name="github_settings_versioning_title">Android Studio project versioning</string>
+    <string name="github_settings_versioning_description">Open an Android Studio project and select GitHub from the editor menu. You can create or connect a repository and publish the project in one commit. Builds, caches, APKs, local.properties, .env files and signing files are ignored. Native Sketchware projects are not uploaded by this feature.</string>
+    <string name="github_settings_examples_title">Chat usage examples</string>
+    <string name="github_settings_examples_description">In agent mode, you can ask:\n\n“List my repositories”\n“Read app/build.gradle from b21676887-alt/SketchwarePro-AI”\n“Search for AgentManager in my Sketchware-IA repository”\n“Create an issue titled Bug: signing fails on API 30”\n“Open a pull request from fix/signing-v3 to main”\n\nThe agent selects the appropriate GitHub tool automatically.</string>
+    <string name="github_settings_token_missing">⚠ No token configured — GitHub tools are disabled in chat.</string>
+    <string name="github_settings_token_configured">✓ Token configured (%1$d characters). GitHub tools are active in agent mode.</string>
+    <string name="github_settings_open_link_failed">Could not open the link.</string>
+    <string name="github_versioning_menu">GitHub</string>
+    <string name="github_versioning_project_missing">Android Studio project not found</string>
+    <string name="github_versioning_token_required">Configure a token in GitHub Settings first.</string>
+    <string name="github_versioning_title">Version with GitHub</string>
+    <string name="github_versioning_description">Only the Android Studio project will be uploaded. Builds, caches and secrets will be ignored.</string>
+    <string name="github_versioning_owner_hint">User or organization</string>
+    <string name="github_versioning_repository_hint">Repository</string>
+    <string name="github_versioning_branch_hint">Branch</string>
+    <string name="github_versioning_commit_hint">Commit message</string>
+    <string name="github_versioning_default_commit">Update Android Studio project</string>
+    <string name="github_versioning_cancel">Cancel</string>
+    <string name="github_versioning_create_repository">Create repository</string>
+    <string name="github_versioning_commit_push">Commit and push</string>
+    <string name="github_versioning_connect">Connect</string>
+    <string name="github_versioning_repository_required">Enter a repository name</string>
+    <string name="github_versioning_required">Required</string>
+    <string name="github_versioning_creating">Creating…</string>
+    <string name="github_versioning_sending">Uploading…</string>
+    <string name="github_versioning_connecting">Connecting…</string>
+    <string name="github_versioning_repository_created">Repository %1$s/%2$s created</string>
+    <string name="github_versioning_connected">Project connected to GitHub</string>
+    <string name="github_versioning_push_complete">Push complete</string>
+    <string name="github_versioning_push_summary">%1$d files in a single commit\n%2$s</string>
+    <string name="github_versioning_close">Close</string>
+    <string name="github_versioning_open_github">Open GitHub</string>
+    <string name="github_versioning_try_again">Try again</string>
+    <string name="github_versioning_failure">GitHub operation failed</string>
+    <string name="github_sync_invalid_binding">Invalid GitHub binding</string>
+    <string name="github_sync_project_folder_missing">Android Studio project folder not found</string>
+    <string name="github_sync_android_studio_only">GitHub versioning is available only for Android Studio projects</string>
+    <string name="github_sync_project_not_bound">Project is not connected to GitHub</string>
+    <string name="github_sync_no_safe_files">No safe files are available to version</string>
+    <string name="github_sync_remote_changed">The branch changed on GitHub after the last push. Reconnect or synchronize before uploading to avoid overwriting remote changes.</string>
+    <string name="github_sync_file_too_large">File exceeds 5 MB: %1$s</string>
+    <string name="github_sync_snapshot_too_large">Snapshot exceeds 40 MB</string>
+    <string name="github_sync_too_many_files">Snapshot exceeds %1$d files</string>
+    <string name="github_sync_file_too_large_to_read">File is too large</string>
+    <string name="github_sync_file_read_failed">Failed to read %1$s</string>
+    <string name="github_sync_token_required">Configure a token in GitHub Settings</string>
+    <string name="github_sync_api_error">GitHub %1$d: %2$s</string>
+    <string name="chat_tool_empty_command">No command was executed because the command text was empty.</string>
+    <string name="chat_tool_working_directory_missing">Working directory not found: %1$s</string>
+    <string name="chat_tool_command_failed">Command execution failed: %1$s</string>
+    <string name="chat_tool_get_file_alias_error">The get_file tool does not exist. Use read_file. Available tools: read_file, ls_dir, get_dir_tree, search_pathnames_only, search_for_files, search_in_file, read_lint_errors, create_file_or_folder, delete_file_or_folder, edit_file, rewrite_file, run_command</string>
+    <string name="chat_tool_unknown_error">Tool %1$s is unavailable or does not exist. Make sure the correct mode is active (agent or gather). Use read_file to read a file, rewrite_file to replace a whole file, or edit_file to modify part of a file. Common tools: read_file, ls_dir, get_dir_tree, search_pathnames_only, search_for_files, search_in_file, read_lint_errors, create_file_or_folder, delete_file_or_folder, edit_file, rewrite_file, run_command.</string>
+    <string name="local_library_manager_download_dependency">Download a dependency</string>
+    <string name="about_jointelegram">Join our Telegram</string>
+    <string name="link_youtube_url">https://youtube.com/@sketchware-ia?si=C4xJ-0xfeXxUnnB7</string>
+    <string name="link_github_main_commit_url">https://api.github.com/repos/b21676887-alt/SketchwarePro-AI/commits/main</string>
+    <string name="link_github_contributors_url">https://api.github.com/repos/b21676887-alt/SketchwarePro-AI/contributors?per_page=100</string>
+    <string name="link_github_releases_url">https://api.github.com/repos/b21676887-alt/SketchwarePro-AI/releases?per_page=25</string>
+    <string name="searchh">Search</string>
+    <string name="search_empty_message">No images to display</string>
+    <string name="search_enter_term">Enter search term</string>
+    <string name="search_failed">Search failed</string>
+    <string name="groq_api_key_cancel">Cancel</string>
+    <string name="ai_layout_generator_title">Generate layout with AI</string>
+    <string name="ai_layout_generator_menu_title">AI layout</string>
+    <string name="ai_layout_generator_message">Describe what should be created or refined in this layout.</string>
+    <string name="ai_layout_generator_input_label">Layout Goal</string>
+    <string name="ai_layout_generator_input_hint">e.g., Create a login screen with a logo at the top, two fields, and a highlighted button</string>
+    <string name="ai_layout_generator_reference_notes_label">Reference image notes</string>
+    <string name="ai_layout_generator_reference_notes_hint">Describe colors, spacing, icons, or structure from the reference image</string>
+    <string name="ai_layout_generator_reference_image_none">No reference image selected.</string>
+    <string name="ai_layout_generator_reference_image_selected">Reference image: %s</string>
+    <string name="ai_layout_generator_reference_images_selected">%1$d reference images selected</string>
+    <string name="ai_layout_generator_reference_image_select">Select reference image</string>
+    <string name="ai_layout_generator_examples_title">Prompt Tips</string>
+    <string name="ai_layout_generator_examples_body">• describe the screen hierarchy\n• mention important components\n• state whether to create from scratch or improve the current one</string>
+    <string name="ai_layout_generator_include_current">Use current layout as context</string>
+    <string name="ai_layout_generator_include_current_hint">Ideal for adjusting the screen without losing the existing structure.</string>
+    <string name="ai_layout_generator_empty_prompt">Describe what the AI should generate before continuing.</string>
+    <string name="ai_layout_generator_loading_title">Generating layout</string>
+    <string name="ai_layout_generator_loading_subtitle">Analyzing the context and assembling a structure compatible with the editor.</string>
+    <string name="ai_layout_generator_loading_applying">Applying layout to the visual editor…</string>
+    <string name="ai_layout_generator_success">Layout applied to %s</string>
+    <string name="ai_layout_generator_error_no_file">No layout file selected.</string>
+    <string name="ai_layout_generator_error_generate">Error generating layout: %s</string>
+    <string name="ai_layout_generator_error_apply">Failed to apply layout: %s</string>
+    <string name="ai_layout_generator_error_dialog_title">AI layout error</string>
+    <string name="ai_layout_generator_error_unusable_xml">The AI response did not return usable XML.</string>
+    <string name="ai_layout_generator_reading_context">Reading current layout to maintain context...</string>
+    <string name="ai_layout_generator_m3_loading_title">Modernizing to Material 3</string>
+    <string name="ai_layout_generator_m3_loading_subtitle">Upgrading components and styles while preserving your original layout structure...</string>
+    <string name="common_word_generate">Generate</string>
+    <string name="ai_explain_title">AI Explanation</string>
+    <string name="ai_explain_loading_title">Explaining error</string>
+    <string name="ai_explain_loading_subtitle">Analyzing the compilation log to provide a clear explanation...</string>
+    <string name="ia_settings_title">IA Settings</string>
+    <string name="ia_settings_subtitle">Manage AI providers</string>
+    <string name="ia_settings_description">Manage provider credentials locally on this device.</string>
+    <string name="ia_max_tokens_title">Chat max tokens</string>
+    <string name="ia_max_tokens_current_value">Current global fallback: %1$d tokens</string>
+    <string name="ia_max_tokens_default_value">Use the global fallback token limit.</string>
+    <string name="ia_max_tokens_hint">Set the fallback max token value used when a provider or model does not define its own limit.</string>
+    <string name="ia_max_tokens_edit">Edit</string>
+    <string name="ia_max_tokens_saved">Max token value saved</string>
+    <string name="ia_search_providers_hint">Search providers or groups</string>
+    <string name="ia_add_provider">Add provider</string>
+    <string name="ia_action_check_providers">Refresh providers</string>
+    <string name="ia_providers_checked">Providers checked</string>
+    <string name="ia_manage_label">Manage</string>
+    <string name="ia_provider_type_label">Provider Type</string>
+    <string name="ia_group_label">Group</string>
+    <string name="ia_enabled_label">Enabled</string>
+    <string name="ia_multi_key_mode_label">Multi-Key Mode</string>
+    <string name="ia_response_api_label">Response API (/responses)</string>
+    <string name="ia_get_account_balance_label">Get account balance</string>
+    <string name="ia_network_label">Network</string>
+    <string name="ia_name_label">Name</string>
+    <string name="ia_api_key_label">API Key</string>
+    <string name="ia_api_key_empty_hint">Leave empty to use default</string>
+    <string name="ia_api_base_url_label">API Base URL</string>
+    <string name="ia_api_path_label">API Path</string>
+    <string name="ia_api_path_default_hint">/chat/completions</string>
+    <string name="ia_tab_config">Config</string>
+    <string name="ia_tab_models">Models</string>
+    <string name="ia_no_models_title">No Models</string>
+    <string name="ia_no_models_subtitle">Tap the buttons below to add models</string>
+    <string name="ia_fetch_models">Fetch</string>
+    <string name="ia_add_model">Add Model</string>
+    <string name="ia_add_model_title">Add Model</string>
+    <string name="ia_tab_basic">Basic</string>
+    <string name="ia_tab_advanced">Advanced</string>
+    <string name="ia_tab_builtin_tools">Built-in Tools</string>
+    <string name="ia_model_id_label">Model ID</string>
+    <string name="ia_model_id_hint">Required, suggest lowercase/digits/hyphens</string>
+    <string name="ia_model_name_label">Model Name</string>
+    <string name="ia_model_type_label">Model Type</string>
+    <string name="ia_model_type_chat">Chat</string>
+    <string name="ia_model_type_embedding">Embedding</string>
+    <string name="ia_input_modes_label">Input Modes</string>
+    <string name="ia_output_modes_label">Output Modes</string>
+    <string name="ia_modality_text">Text</string>
+    <string name="ia_modality_image">Image</string>
+    <string name="ia_abilities_label">Abilities</string>
+    <string name="ia_ability_tools">Tools</string>
+    <string name="ia_ability_reasoning">Reasoning</string>
+    <string name="ia_provider_overrides_desc">Provider overrides: customize provider for a specific model.</string>
+    <string name="ia_add_provider_override">Add Provider Override</string>
+    <string name="ia_custom_headers_title">Custom Headers</string>
+    <string name="ia_add_header">Add Header</string>
+    <string name="ia_custom_body_title">Custom Body</string>
+    <string name="ia_add_body">Add Body</string>
+    <string name="ia_builtin_tools_official_only">Available only for official providers in Response API mode.</string>
+    <string name="ia_builtin_tools_requires_response_api">Enable \"Response API (/responses)\" in Config to use these tools.</string>
+    <string name="ia_code_interpreter_title">Code Interpreter</string>
+    <string name="ia_code_interpreter_desc">Lets the model write and run code to solve problems.</string>
+    <string name="ia_image_generation_title">Image Generation</string>
+    <string name="ia_image_generation_desc">Lets the model generate images as part of its response.</string>
+    <string name="ia_status_on">ON</string>
+    <string name="ia_status_off">OFF</string>
+    <string name="ia_delete_model">Delete model</string>
+    <string name="ia_provider_name_required">Provider name is required</string>
+    <string name="ia_import_provider_hint">Paste ai-provider:v1 code or provider JSON</string>
+    <string name="ia_imported_providers">Imported %1$d provider(s)</string>
+    <string name="ia_import_failed">Import failed: %1$s</string>
+    <string name="ia_test_provider">Test provider</string>
+    <string name="ia_testing_provider">Testing provider...</string>
+    <string name="ia_provider_test_ok">Connection OK. Found %1$d model(s)</string>
+    <string name="ia_provider_test_failed">Connection failed: %1$s</string>
+    <string name="ia_share_provider">Share provider</string>
+    <string name="ia_delete_provider">Delete provider</string>
+    <string name="ia_delete_provider_message">Delete %1$s from providers?</string>
+    <string name="ia_fetching_models">Fetching models from %1$s...</string>
+    <string name="ia_models_fetched">Fetched %1$d model(s)</string>
+    <string name="ia_fetch_models_failed">Fetch failed: %1$s</string>
+    <string name="ia_api_key_required">API key is required</string>
+    <string name="ia_save">Save</string>
+    <string name="ia_balance_enabled">Enable balance query</string>
+    <string name="ia_balance_api_path">Balance API path</string>
+    <string name="ia_balance_result_path">Balance result path</string>
+    <string name="ia_balance_query">Query</string>
+    <string name="ia_balance_querying">Querying balance...</string>
+    <string name="ia_balance_result">Balance: %1$s</string>
+    <string name="ia_balance_error">Balance error: %1$s</string>
+    <string name="ia_balance_openai_only">Balance is only supported for OpenAI-compatible providers</string>
+    <string name="ia_enable_proxy">Enable proxy</string>
+    <string name="ia_proxy_type">Proxy type</string>
+    <string name="ia_proxy_host">Proxy host</string>
+    <string name="ia_proxy_port">Proxy port</string>
+    <string name="ia_proxy_username">Proxy username</string>
+    <string name="ia_proxy_password">Proxy password</string>
+    <string name="ia_network_saved">Network settings saved</string>
+    <string name="ia_device_language_notice_template">Device language: %1$s. The AI will respond in the detected language.</string>
+    <string name="ia_label_groq_api_key">Groq API Key</string>
+    <string name="ia_label_openai_api_key">OpenAI API Key</string>
+    <string name="ia_label_gemini_api_key">Gemini API Key</string>
+    <string name="ia_hint_api_key">Paste your key here</string>
+    <string name="ia_link_get_groq_api_key">Get Groq key</string>
+    <string name="ia_link_get_openai_api_key">Get OpenAI API key</string>
+    <string name="ia_link_get_gemini_api_key">Get Gemini API key</string>
+    <string name="url_groq_api_keys">https://console.groq.com/keys</string>
+    <string name="url_openai_api_keys">https://platform.openai.com/api-keys</string>
+    <string name="url_gemini_api_keys">https://aistudio.google.com/app/apikey</string>
+    <string name="ia_toggle_groq">Enable Groq</string>
+    <string name="ia_toggle_openai">Enable OpenAI (ChatGPT)</string>
+    <string name="ia_toggle_gemini">Enable Google Gemini</string>
+    <string name="ia_open_link_error">Unable to open the link</string>
+    <string name="groq_api_key_not_configured_title">Groq API key not configured</string>
+    <string name="groq_api_key_not_configured_message">Please configure your Groq API key in settings</string>
+    <string name="chat_title">Chat</string>
+    <string name="chat_title_with_project">Chat - %1$s</string>
+    <string name="chat_title_with_project_thread">Chat - %1$s - %2$s</string>
+    <string name="chat_project_not_found">Project ID not found</string>
+    <string name="chat_default_project_name">this project</string>
+    <string name="chat_welcome_message">Hello! How can I help you with %1$s?</string>
+    <string name="chat_voice_prompt">Speak now...</string>
+    <string name="chat_voice_not_supported">Your device does not support voice input</string>
+    <string name="chat_model_groq">Groq (Llama 3.1 8B)</string>
+    <string name="chat_model_openai">OpenAI (GPT-4o Mini)</string>
+    <string name="chat_model_gemini">Google Gemini (1.5 Pro)</string>
+    <string name="chat_model_short_groq">Llama 3.1 8B</string>
+    <string name="chat_model_short_openai">GPT-4o Mini</string>
+    <string name="chat_model_short_gemini">Gemini 1.5 Pro</string>
+    <string name="chat_model_changed">Model changed to %1$s</string>
+    <string name="chat_no_models_available">No enabled models are available. Configure a provider and enable at least one model in AI Settings.</string>
+    <string name="chat_no_models_available_short">No model</string>
+    <string name="chat_mode_chat">Chat</string>
+    <string name="chat_mode_gather">Gather</string>
+    <string name="chat_mode_agent">Agent</string>
+    <string name="chat_mode_detail_chat">Normal chat mode</string>
+    <string name="chat_mode_detail_gather">Reads files, but can\'t edit</string>
+    <string name="chat_mode_detail_agent">Edits files and uses tools</string>
+    <string name="chat_wait_processing">Please wait for the current message to be processed</string>
+    <string name="chat_wait_before_sending">Please wait %1$d second(s) before sending another message</string>
+    <string name="chat_rate_limit_wait">Rate limit reached. Please wait %1$s seconds before trying again.</string>
+    <string name="chat_rate_limit_wait_generic">Rate limit reached. Please wait a few seconds before sending another message.</string>
+    <string name="chat_send_error">Error sending message: %1$s</string>
+    <string name="chat_provider_communication_error">Error communicating with the AI provider</string>
+    <string name="chat_error_generic">Error: %1$s</string>
+    <string name="chat_unknown_error">Unknown error</string>
+    <string name="chat_menu_clear_chat">Clear Chat</string>
+    <string name="chat_menu_threads">Conversations</string>
+    <string name="chat_menu_new_thread">New Conversation</string>
+    <string name="chat_menu_model_catalog">Model Catalog</string>
+    <string name="chat_menu_export_chat">Export chat (.txt)</string>
+    <string name="chat_menu_cancel_run">Cancel Current Run</string>
+    <string name="chat_menu_rollback_checkpoint">Rollback Last Checkpoint</string>
+    <string name="chat_menu_show_debug">Mostrar log de performance</string>
+    <string name="chat_menu_hide_debug">Ocultar log de performance</string>
+    <string name="chat_debug_enabled">Log de performance ativado</string>
+    <string name="chat_debug_disabled">Log de performance desativado</string>
+    <string name="chat_cleared">Chat cleared</string>
+    <string name="chat_nothing_to_cancel">There is no running action to cancel</string>
+    <string name="chat_run_cancelled">Current execution cancelled</string>
+    <string name="chat_input_hint">What do you want me to build?</string>
+    <string name="kelivo_input_hint">Type a message for AI</string>
+    <string name="kelivo_drawer_search_hint">Search current assist...</string>
+    <string name="kelivo_drawer_history">History</string>
+    <string name="kelivo_drawer_translate">Translate</string>
+    <string name="kelivo_drawer_settings">Settings</string>
+    <string name="kelivo_open_drawer">Open menu</string>
+    <string name="kelivo_header_map">Conversation map</string>
+    <string name="kelivo_header_new_chat">New chat</string>
+    <string name="kelivo_input_web">Web search</string>
+    <string name="kelivo_input_tools">Tools</string>
+    <string name="kelivo_default_assistant">Sample Assistant</string>
+    <string name="kelivo_default_user">fabio</string>
+    <string name="kelivo_model_search_hint">Search models or providers</string>
+    <string name="kelivo_model_favorites">Favorites</string>
+    <string name="kelivo_model_favorite">Favorite model</string>
+    <string name="kelivo_model_icon">Model icon</string>
+    <string name="kelivo_tag_chat">Chat</string>
+    <string name="kelivo_tag_text">T &gt; T</string>
+    <string name="kelivo_tool_camera">Camera</string>
+    <string name="kelivo_tool_photos">Photos</string>
+    <string name="kelivo_tool_upload">Upload</string>
+    <string name="kelivo_tool_instruction">Instruction Injection</string>
+    <string name="kelivo_tool_context">Context Management</string>
+    <string name="kelivo_action_copy">Copy</string>
+    <string name="kelivo_action_refresh">Regenerate</string>
+    <string name="kelivo_action_edit">Edit</string>
+    <string name="kelivo_action_more">More options</string>
+    <string name="kelivo_action_speak">Speak</string>
+    <string name="kelivo_action_translate">Translate</string>
+    <string name="kelivo_action_share">Share</string>
+    <string name="kelivo_action_delete">Delete message</string>
+    <string name="chat_reasoning_label">Reasoning</string>
+    <string name="show_reasoning">Show reasoning</string>
+    <string name="hide_reasoning">Hide reasoning</string>
+    <string name="kelivo_message_edit_title">Edit message</string>
+    <string name="kelivo_message_edit_save_send">Save &amp; Send</string>
+    <string name="kelivo_thread_actions_title">Chat options</string>
+    <string name="kelivo_thread_rename">Rename</string>
+    <string name="kelivo_thread_pin">Pin</string>
+    <string name="kelivo_thread_unpin">Unpin</string>
+    <string name="kelivo_thread_pinned">Pinned</string>
+    <string name="kelivo_thread_delete">Delete</string>
+    <string name="kelivo_thread_delete_confirm">Delete this chat history?</string>
+    <string name="kelivo_thread_deleted">Chat deleted</string>
+    <string name="kelivo_thread_renamed">Chat renamed</string>
+    <string name="kelivo_profile_avatar">Profile avatar</string>
+    <string name="kelivo_profile_avatar_title">Avatar</string>
+    <string name="kelivo_profile_choose_image">Choose image</string>
+    <string name="kelivo_profile_choose_emoji">Choose emoji</string>
+    <string name="kelivo_profile_remove_avatar">Remove avatar</string>
+    <string name="kelivo_profile_edit_name">Edit name</string>
+    <string name="kelivo_profile_name_hint">Name</string>
+    <string name="kelivo_profile_name_saved">Name updated</string>
+    <string name="kelivo_avatar_updated">Avatar updated</string>
+    <string name="kelivo_translate_fallback">Could not open translator. Text copied.</string>
+    <string name="kelivo_token_placeholder">0 tokens</string>
+    <string name="kelivo_copied">Copied to clipboard</string>
+    <string name="kelivo_instruction_soon">Instruction injection coming soon</string>
+    <string name="chat_edit_rewind_hint">Message restored. Edit it and send again.</string>
+    <string name="chat_camera_open_failed">Could not open the camera.</string>
+    <string name="chat_processing">Processing...</string>
+    <string name="chat_status_thinking">AI is thinking...</string>
+    <string name="chat_status_ready">Ready</string>
+    <string name="chat_changed_files_placeholder">0 Files With Changes</string>
+    <string name="chat_recent_changes_title">Recent file changes</string>
+    <string name="chat_recent_changes_empty">No recent file changes</string>
+    <string name="chat_page_chat">Chat</string>
+    <string name="chat_page_diffs">Diffs</string>
+    <string name="chat_page_artifacts">Artifacts</string>
+    <string name="chat_page_plan">Plan</string>
+    <string name="chat_page_compile_log">Logs</string>
+    <string name="chat_token_meter_empty">0 / 0</string>
+    <string name="chat_token_meter_value">%1$s / %2$s</string>
+    <string name="chat_token_meter_percent">%1$d%%</string>
+    <string name="chat_compile_button">Compile project</string>
+    <string name="chat_compile_dialog_title">Compile project?</string>
+    <string name="chat_compile_dialog_message">The compile log tab will open now and show build progress without leaving the chat.</string>
+    <string name="chat_compile_dialog_positive">Compile</string>
+    <string name="chat_compile_already_running">Compilation is already running.</string>
+    <string name="chat_compile_log_starting">Starting compilation...</string>
+    <string name="chat_compile_success">Compilation finished.</string>
+    <string name="chat_compile_failed">Compilation failed. Check the log tab.</string>
+    <string name="chat_compile_apk_missing">Compiled APK was not found.</string>
+    <string name="chat_diff_title">Recent diffs</string>
+    <string name="chat_diff_summary">Changed files: %1$d</string>
+    <string name="chat_diff_empty">No file changes yet.</string>
+    <string name="chat_diff_action_open">Open</string>
+    <string name="chat_diff_action_accept">Accept</string>
+    <string name="chat_diff_action_reject">Reject</string>
+    <string name="chat_diff_action_accept_all">Accept all</string>
+    <string name="chat_diff_action_reject_all">Discard all</string>
+    <string name="chat_diff_accept_success">Diff accepted.</string>
+    <string name="chat_diff_accept_missing">Diff was already cleared.</string>
+    <string name="chat_diff_accept_all_success">Accepted %1$d change(s).</string>
+    <string name="chat_diff_reject_success">File restored.</string>
+    <string name="chat_diff_reject_failed">Could not restore this file.</string>
+    <string name="chat_diff_reject_all_success">Discarded %1$d change(s).</string>
+    <string name="chat_diff_reject_confirm_title">Reject changes?</string>
+    <string name="chat_diff_reject_confirm_message">Restore the previous version of %1$s?</string>
+    <string name="chat_diff_reject_all_confirm_title">Discard all changes?</string>
+    <string name="chat_diff_reject_all_confirm_message">Restore every tracked file to its previous version?</string>
+    <string name="chat_diff_open_failed">Could not open this file.</string>
+    <string name="chat_diff_content_truncated">Preview truncated.</string>
+    <string name="chat_artifacts_files_title">Changed files</string>
+    <string name="chat_artifacts_images_title">Images</string>
+    <string name="chat_artifacts_tools_title">Tool activity</string>
+    <string name="chat_artifacts_no_files">No changed files tracked yet.</string>
+    <string name="chat_artifacts_no_images">No image artifacts in this conversation yet.</string>
+    <string name="chat_artifacts_file_detail">+%1$d -%2$d at %3$s</string>
+    <string name="chat_artifacts_tool_summary">Grouped tool summary</string>
+    <string name="chat_plan_status_pending">Pending</string>
+    <string name="chat_plan_status_running">Running</string>
+    <string name="chat_plan_status_done">Done</string>
+    <string name="chat_threads_title">Chat conversations</string>
+    <string name="chat_thread_create">New conversation</string>
+    <string name="chat_thread_none">No conversations found</string>
+    <string name="chat_thread_switched">Conversation changed</string>
+    <string name="chat_thread_default_title">Principal</string>
+    <string name="chat_thread_new_title">New conversation</string>
+    <string name="chat_thread_empty_summary">No messages yet</string>
+    <string name="chat_thread_current_prefix">Current - </string>
+    <string name="chat_model_catalog_title">Model catalog</string>
+    <string name="chat_model_refresh_local">Refresh local</string>
+    <string name="chat_model_open_settings">AI Settings</string>
+    <string name="chat_model_no_catalog_models">No catalog models. Add or auto-detect models in AI Settings.</string>
+    <string name="chat_model_refresh_started">Refreshing local model providers...</string>
+    <string name="chat_model_refresh_done">%1$s refreshed: %2$d model(s)</string>
+    <string name="chat_model_refresh_error">%1$s refresh failed: %2$s</string>
+    <string name="chat_list_badge">AI chat</string>
+    <string name="chat_attach_content_description">Attach context</string>
+    <string name="chat_attach_project_reference">Mention file/folder</string>
+    <string name="chat_attach_reference_image">Reference image</string>
+    <string name="chat_attach_reference_file">Reference file</string>
+    <string name="chat_reference_picker_title">Add @ reference</string>
+    <string name="chat_reference_search_hint">Search files or folders</string>
+    <string name="chat_reference_context_label">Context: %1$s</string>
+    <string name="chat_reference_none">No project files found</string>
+    <string name="chat_reference_image_added">Reference image added</string>
+    <string name="chat_reference_images_added">Reference images added: %1$d</string>
+    <string name="chat_reference_file_added">Reference file added</string>
+    <string name="chat_reference_files_added">Reference files added: %1$d</string>
+    <string name="chat_reference_file_failed">Could not attach this file</string>
+    <string name="chat_reference_files_partial">Attached: %1$d. Without persistent access: %2$d.</string>
+    <string name="chat_reference_picker_unavailable">No persistent document picker is available on this device</string>
+    <string name="chat_reference_limit">Reference limit reached</string>
+    <string name="chat_remove_reference_image">Remove reference image</string>
+    <string name="chat_images_only_prompt">Analyze the attached images.</string>
+    <string name="chat_references_only_prompt">Use the attached context.</string>
+    <string name="chat_model_selector_content_description">Select AI model</string>
+    <string name="chat_voice_content_description">Voice input</string>
+    <string name="chat_send_content_description">Send message</string>
+    <string name="chat_tool_using">Using %1$s</string>
+    <string name="chat_tool_unknown">Tool</string>
+    <string name="chat_tool_result">Result:\n%1$s</string>
+    <string name="chat_tool_finished">Finished.</string>
+    <string name="chat_tool_approve">Approve</string>
+    <string name="chat_tool_reject">Reject</string>
+    <string name="chat_tool_cancel">Cancel</string>
+    <string name="chat_tool_status_waiting_approval">Waiting for approval</string>
+    <string name="chat_tool_status_running">Running</string>
+    <string name="chat_tool_status_done">Done</string>
+    <string name="chat_tool_status_error">Error</string>
+    <string name="chat_tool_status_cancelled">Cancelled</string>
+    <string name="chat_tool_status_approved">Approved</string>
+    <string name="chat_tool_status_rejected">Rejected</string>
+    <string name="chat_tool_approval_message_named">The tool "%1$s" needs your confirmation before running.</string>
+    <string name="chat_tool_running_message">Tool execution in progress.</string>
+    <string name="chat_tool_done_message">Tool completed. Continuing the response.</string>
+    <string name="chat_tool_error_message">The tool finished with an error.</string>
+    <string name="chat_tool_cancelled_message">Execution canceled by the user.</string>
+    <string name="chat_cancelled_suffix">[cancelado pelo usuário]</string>
+    <string name="chat_interrupted_streaming_tool">Ferramenta interrompida: %1$s</string>
+    <string name="chat_tool_loop_detected">Erro: loop detectado. Esta ferramenta foi chamada 3 vezes com os mesmos argumentos.</string>
+    <string name="chat_tool_loop_use_read_file">Use read_file em vez de get_file.</string>
+    <string name="chat_tool_loop_use_edit_tools">Para editar arquivos, use rewrite_file ou edit_file.</string>
+    <string name="chat_tool_loop_try_different">Tente outra abordagem ou peça esclarecimento.</string>
+    <string name="chat_tool_approved_message">Tool approved. Running now.</string>
+    <string name="chat_tool_rejected_message">Execution rejected by the user.</string>
+    <string name="chat_tool_error_state">The tool did not return a successful result.</string>
+    <string name="chat_tool_result_truncated_ui">%1$s\n... [output truncated for UI view, but full output sent to AI]</string>
+    <string name="chat_tool_loop_error">Error processing results (Tool Loop): %1$s</string>
+    <string name="logic_editor_syntax_ok">Syntax OK</string>
+    <string name="logic_editor_syntax_error_details">Syntax Error! Tap for details</string>
+    <string name="ai_explain_error_processing_response">Failed to process AI response.</string>
+    <string name="compile_log_project_detected">Detected project ID: %1$s</string>
+    <string name="compile_log_cleared">Compile logs have been cleared.</string>
+    <string name="compile_log_not_found">No compile logs found.</string>
+    <string name="compile_log_option_wrap_text">Wrap text</string>
+    <string name="compile_log_option_monospaced_font">Monospaced font</string>
+    <string name="compile_log_option_font_size">Font size</string>
+    <string name="compile_log_font_size_title">Select font size</string>
+    <string name="compile_log_no_log_to_analyze">No log to analyze.</string>
+    <string name="compile_log_no_log_available">No compile log available.</string>
+    <string name="compile_log_project_unresolved">Unable to resolve the current project.</string>
+    <string name="compile_log_empty_title">Awesome, no bugs to fix!</string>
+    <string name="compile_log_empty_message">Let\'s continue working on the project</string>
+    <string name="compile_log_action_format">Format options</string>
+    <string name="compile_log_action_clear">Clear compile log</string>
+    <string name="compile_log_action_ai_explain">Explain with AI</string>
+    <string name="common_word_copied">Copied</string>
+    <string name="donation_dialog_title">Support the project</string>
+    <string name="donation_dialog_message">If you enjoy Sketchware AI, consider making a donation to support ongoing development and keep the project alive.</string>
+    <string name="donation_button_donate">Donate</string>
+    <string name="donation_button_cancel">Cancel</string>
+    <string name="main_drawer_title_donate">Donate</string>
+    <string name="link_donation_url">https://buy.stripe.com/6oU3cw0po1l90Ik52s0co00</string>
+    <string name="project_options_title">Project settings</string>
+    <string name="project_options_pin">Pin project</string>
+    <string name="project_options_unpin">Unpin project</string>
+    <string name="project_options_backup">Backup project</string>
+    <string name="project_options_export_sign">Export/Sign</string>
+    <string name="project_options_change_settings">Change project settings</string>
+    <string name="project_options_configuration">Project configuration</string>
+    <string name="project_options_delete">Delete project</string>
+    <string name="store_preview_about_project">About this project</string>
+    <string name="store_preview_comments">Comments</string>
+    <string name="store_preview_download">Download</string>
+    <string name="store_preview_buy">Buy</string>
+    <string name="store_more_from_developer">More from this developer</string>
+    <string name="store_tab_for_you">For you</string>
+    <string name="store_tab_trending">Trending</string>
+    <string name="store_tab_new">New</string>
+    <string name="store_tab_categories">Categories</string>
+    <string name="store_suggestions_title">Suggestions for you</string>
+    <string name="store_about_this_app">About this app</string>
+    <string name="store_details_section">Details</string>
+    <string name="store_whats_new">What\'s new</string>
+    <string name="export_project_title_export_aab">Export AAB (Android App Bundle)</string>
+    <string name="export_project_button_export_aab">Export AAB</string>
+    <string name="design_manager_lottie_description_guide_add_animation">You can add Lottie animations (JSON) from the menu. You can use them in LottieAnimationView.</string>
+    <string name="design_manager_lottie_title_apply_same_naming">Apply same naming to selected Lottie files</string>
+    <string name="manage_libs_reload">Reloading Libraries</string>
+    <string name="manage_libs_select_all">Select all</string>
+    <string name="manage_libs_manage_repos">Warehouse Management</string>
+    <string name="warning_title">warning</string>
+    <string name="warning_remove_used_library_message">The library "%1$s" is already in use in your project; removing it may break the project.
+Do you want to continue?</string>
+    <string name="deleted_successfully">Deleted successfully</string>
+    <string name="title_managers_category">Managers</string>
+    <string name="title_block_manager">Block manager</string>
+    <string name="subtitle_block_manager">Manage your own blocks to use in Logic Editor</string>
+    <string name="title_block_selector_menu_manager">Block selector menu manager</string>
+    <string name="subtitle_block_selector_menu_manager">Manage your own block selector menus</string>
+    <string name="title_component_manager">Component manager</string>
+    <string name="subtitle_component_manager">Manage your own components</string>
+    <string name="title_event_manager">Event manager</string>
+    <string name="subtitle_event_manager">Manage your own events</string>
+    <string name="title_local_library_manager">Local library manager</string>
+    <string name="subtitle_local_library_manager">Manage and download local libraries</string>
+    <string name="title_app_settings">App settings</string>
+    <string name="subtitle_app_settings">Change general app settings</string>
+    <string name="title_github_settings">GitHub Settings</string>
+    <string name="subtitle_github_settings">Manage GitHub API token for the AI agent</string>
+    <string name="title_open_working_directory">Open working directory</string>
+    <string name="subtitle_open_working_directory">Open Sketchware Pro\'s directory and edit files in it</string>
+    <string name="title_sign_apk_file">Sign an APK file with testkey</string>
+    <string name="subtitle_sign_apk_file">Sign an already existing APK file with testkey and signature schemes up to V4</string>
+    <string name="subtitle_system_settings">Auto-save and vibrations</string>
+    <string name="file_picker_select_entry_to_modify">Select an entry to modify</string>
+    <string name="dialog_title_select_action">Select an action</string>
+    <string name="dialog_title_delete_item">Delete %1$s?</string>
+    <string name="dialog_message_delete_confirm">Are you sure you want to delete this %1$s permanently? This cannot be undone.</string>
+    <string name="dialog_title_delete_file">Delete file?</string>
+    <string name="dialog_message_delete_file_confirm">Are you sure you want to delete this file permanently? This cannot be undone.</string>
+    <string name="word_folder">folder</string>
+    <string name="word_file">file</string>
+    <string name="title_sign_apk_dialog">Sign APK with testkey</string>
+    <string name="toast_select_apk_first">Please select an APK file to sign</string>
+    <string name="dialog_title_file_exists">File exists</string>
+    <string name="dialog_message_overwrite_apk">An APK named %1$s already exists at /sketchware/signed_apk/. Overwrite it?</string>
+    <string name="progress_signing_apk">Signing APK...</string>
+    <string name="progress_signing_apk_error">An error occurred. Check the log for more details.</string>
+    <string name="toast_sign_apk_success">Successfully saved signed APK to: /Internal storage/sketchware/signed_apk/%1$s</string>
+    <string name="link_about_teamm">https://raw.githubusercontent.com/b21676887-alt/SketchwarePro-AI/main/about.json</string>
+    <string name="groq_api_key_configure">Configure API Key</string>
+    <string name="groq_api_error_generic">An error occurred while processing your request</string>
+    <string name="design_menu_transcribe_to_Material">Transcribe to Material 3</string>
+    <string name="design_menu_reset_layout">Reset Root Layout</string>
+    <string name="menu_save_changes">save changes</string>
+    <string name="menu_webservice">Web Service</string>
+    <string name="menu_iachat">Chat</string>
+    <string name="generating_code_progress">Generating code...</string>
+    <string name="ai_layout_generator">AI Layout</string>
+    <string name="project_settings_hint_comple_sdk">Compile SDK version</string>
 </resources>
