@@ -12,6 +12,7 @@ import android.widget.RadioGroup;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
+import java.io.File;
 import java.util.HashMap;
 
 import pro.sketchware.util.Helper;
@@ -20,6 +21,11 @@ import pro.sketchware.core.project.SketchwarePaths;
 import pro.sketchware.util.FileUtil;
 
 public class ProjectSettings {
+
+        /**
+     * Setting for the final app's {@code compileSdk}
+     */
+    public static final String SETTING_COMPILE_SDK_VERSION = "compile_sdk";
 
     /**
      * Setting for the final app's {@code minSdkVersion}
@@ -83,6 +89,25 @@ public class ProjectSettings {
             }
         } else {
             settings = new HashMap<>();
+        }
+    }
+    
+
+    public int getCompileSdkVersion(int defaultValue) {
+        return getIntValue(SETTING_COMPILE_SDK_VERSION, defaultValue, "compile SDK version");
+    }
+    
+    private int getIntValue(String key, int defaultValue, String label) {
+        if (settings.containsKey(key)) {
+            try {
+                //noinspection ConstantConditions because we catch that already
+                return Integer.parseInt(settings.get(key));
+            } catch (NumberFormatException | NullPointerException e) {
+                LogUtil.e(TAG, "Failed to parse the project's " + label + "! Defaulting to " + defaultValue, e);
+                return defaultValue;
+            }
+        } else {
+            return defaultValue;
         }
     }
 
