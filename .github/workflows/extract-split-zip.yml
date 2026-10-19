@@ -1,11 +1,6 @@
 name: Extract Backup 7z Split Archive
 
 on:
-  push:
-    branches:
-      - '**' # يعمل عند الرفع على أي فرع (main, dev, إلخ)
-    paths:
-      - '**/app.7z.*' # يعمل عند رفع أجزاء app.7z.001, app.7z.002 ... إلخ
   workflow_dispatch:
 
 jobs:
@@ -14,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6
@@ -24,27 +20,31 @@ jobs:
           sudo apt-get install -y p7zip-full
 
       - name: Extract Split 7z Archive
+        shell: bash
         run: |
-          # البحث عن الجزء الأول من الملف المضغوط أينما وجد
           FIRST_PART=$(find . -maxdepth 2 -name "app.7z.001" | head -n 1)
-          
-          if [ -n "$FIRST_PART" ]; then
-            TARGET_DIR=$(dirname "$FIRST_PART")
-            BASENAME=$(basename "$FIRST_PART" .001)
-            
-            echo "Extracting $FIRST_PART into $TARGET_DIR..."
-            
-            # فك الضغط باستخدام 7z إلى المجلد المستهدف
-            7z x "$FIRST_PART" -o"$TARGET_DIR" -y
-            
-            echo "Removing split archive parts..."
-            # حذف كافة الأجزاء المقسمة التابعة للملف بعد فك الضغط بنجاح
-            rm -f "$TARGET_DIR/$BASENAME".*
-            
-            echo "Extracted successfully and removed split parts."
-          else
-            echo "Warning: app.7z.001 not found in workspace."
+
+          if [ -z "$FIRST_PART" ]; then
+            echo "::error:: app.7z.001 not found in the repository."
+            exit 1
           fi
+
+          if [ ! -f "$FIRST_PART" ]; then
+            echo "::error:: File exists in search results, but is not a valid file: $FIRST_PART"
+            exit 1
+          fi
+
+          TARGET_DIR=$(dirname "$FIRST_PART")
+          BASENAME=$(basename "$FIRST_PART" .001)
+
+          echo "Extracting $FIRST_PART into $TARGET_DIR..."
+
+          7z x "$FIRST_PART" -o"$TARGET_DIR" -y
+
+          echo "Removing split archive parts..."
+          rm -f "$TARGET_DIR/$BASENAME".*
+
+          echo "Extracted successfully and removed split parts."
 
       - name: Commit and Push Unzipped Files
         run: |
