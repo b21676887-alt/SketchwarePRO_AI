@@ -136,9 +136,9 @@ dependencies {
     implementation libs.insetter
 
     // User Messaging Platform
-    implementation 'com.google.android.ump:user-messaging-platform:3.0.0'
+    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
 
-    testImplementation "org.json:json:20240303"
+    testImplementation "org.json:json:20260814"
 
     implementation(libs.javaparser.symbol.solver) {
         exclude group: "com.google.guava", module: "guava"
