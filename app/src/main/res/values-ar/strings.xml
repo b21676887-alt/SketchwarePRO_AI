@@ -3271,6 +3271,9 @@
     <string name="local_library_manager_manifest_merge_enabled">الدمج التلقائي لملفات بيان (manifest) المكتبات المحلية مُمكّن</string>
     <string name="menu_auto_merge_local_library_manifests">دمج بيان (manifest) المكتبات المحلية تلقائياً</string>
     <string name="select_lib_hint_search">البحث عن مكتبات</string>
+    <string name="menu_import_indices_librarys">استيراد فهارس المكتبات الى المشروع تلقائيا</string>
+    <string name="menu_import_indices_librarys_enabled">استيراد الفهارس تلقائيا ممكن</string>
+    <string name="menu_import_indices_librarys_disabled">استيراد الفهارس تلقائيا معطل</string>
 
     
     <string name="build_error_failed_create_directory">فشل في إنشاء المجلد / المجلدات!</string>
@@ -3791,4 +3794,6 @@
     <string name="ai_help_button">مساعدة الذكاء الاصطناعي</string>
     <string name="ai_help_loading_subtitle">جاري تحليل الكود لتوفير شرح واضح...</string>
     <string name="ai_help_loading_title">مساعدة الذكاء الاصطناعي</string>
+    <string name="project_settings_extractandmergemetaInf">دمج ملفات META-INF</string>
+    <string name="project_settings_extractandmergemetaInf_desc">استخراج ودمج ملفات meta-inf (الخدمات والإضافات و kotlin_module وما إلى ذلك) من جميع جرات المكتبة ، باستثناء التوقيعات و manifest.mf ، وإضافتها إلى APK.</string>
 </resources>
